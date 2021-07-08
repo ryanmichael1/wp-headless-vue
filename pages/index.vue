@@ -22,9 +22,6 @@ export default {
       return this.$store.state.posts;
     }
   },
-  // created() {
-  //   this.$store.dispatch("getPosts");
-  // },
 
   async fetch() {
     this.data = await fetch(
