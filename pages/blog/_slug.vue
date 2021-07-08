@@ -20,9 +20,9 @@ export default {
     return {
       slug: this.$route.params.slug
     };
-  },
-  created() {
-    this.$store.dispatch("getPosts");
   }
+  // created() {
+  //   this.$store.dispatch("getPosts");
+  // }
 };
 </script>
